@@ -58,4 +58,10 @@ public class TransPackedFloatReference extends PackedComponent {
 		$data.putFloat($stride + 0, v.x());
 		$data.putFloat($stride + 4, v.y);
 	}
+
+	@Override
+	protected void enscureCapacity(int id) {
+		// TODO Auto-generated method stub
+		
+	}
 }

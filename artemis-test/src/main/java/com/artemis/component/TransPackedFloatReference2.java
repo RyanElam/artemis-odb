@@ -84,4 +84,10 @@ public class TransPackedFloatReference2 extends PackedComponent implements Dispo
 		$data.putFloat($stride + 0, v.x());
 		$data.putFloat($stride + 4, v.y);
 	}
+
+	@Override
+	protected void enscureCapacity(int id) {
+		// TODO Auto-generated method stub
+		
+	}
 }
